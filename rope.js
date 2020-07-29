@@ -26,6 +26,6 @@ class Chain {
         var Anchor2X=pointB.x+this.offsetX
         var Anchor2Y=pointB.y+this.offsetY
 
-        line(Anchor1x,Anchor1Y,Anchor1Y,Anchor2X,Anchor2Y);
+        line(Anchor1X,Anchor1Y,Anchor1Y,Anchor2X,Anchor2Y);
     }
 }

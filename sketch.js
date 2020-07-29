@@ -3,6 +3,7 @@ const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
 const Body = Matter.Body;
+const Constraint = Matter.Constraint;
 
 function preload()
 {
@@ -32,7 +33,7 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
-  background(0);
+  background(255,255,0);
   
 	bob1.display();
 	bob2.display();
@@ -40,9 +41,9 @@ function draw() {
 	bob4.display();
 	bob5.display();
 	roof.display();
-	rope.display();
+	rope1.display();
 
-  drawSprites();
+  
  
 }
 
